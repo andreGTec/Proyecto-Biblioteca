@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>Album example · Bootstrap v5.2</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
+
+    
+
+    
+
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+    .card-text{
+        color: black;
+        
+      }
+      section{
+        color: blanchedalmond;
+        font-size: 20px;
+      }
+      main {
+        background-image: url('https://i.pinimg.com/originals/34/16/fc/3416fc4113b69a0bf1cc75a772c4b5c4.gif');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:cover;
+        background-position: center;
+        
+
+      }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      h1{
+        display: block;
+        font-family: monospace;
+        white-space: nowrap;
+        border-right:4px solid;
+        width : 25ch;
+        animation: typing 4s steps(12) ,blink .5s infinite step-end alternate;
+        overflow: hidden;
+
+      }
+      @keyframes typing{
+        from {width:0}
+      }
+      @keyframes blink{
+        50% { border-color: transparent}
+      }
+
+    </style>
+
+    
+  </head>
+  <body>
+    
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About</h4>
+          <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Follow on Twitter</a></li>
+            <li><a href="#" class="text-white">Like on Facebook</a></li>
+            <li><a href="#" class="text-white">Email me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</header>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">BIENVENIDO ADMINISTRADOR</h1>
+        <p class="lead text-muted">Los generos de los libros son los siguientes</p>
+      </div>
+    </div>
+  </section>   
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="https://pekeleke.es/wp-content/uploads/2022/05/libros_para_ninos_12_anos.jpg" width="100%" height="225" class="img-fluid" alt="Responsive image">
+
+            <div class="card-body">
+              <p class="card-text">Sus límites son ambiguos, es decir, que puede albergar en ella otros subgéneros como el histórico, el policíaco o el romántico, por ejemplo. Muchos la consideran un tipo de literatura juvenil, aunque todos hemos oído hablar de sus grandes títulos y en algún momento nos hemos perdido entre sus páginas.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    </div>
+                <small class="text-muted">Aventura</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/libros-fantasticos-1637067145.jpg" width="100%" height="225" class="img-fluid" alt="Responsive image">
+
+            <div class="card-body">
+              <p class="card-text">Entre los elementos más comunes de la ciencia-ficción encontramos la clonación y la mutación genética; la vida extraterrestre junto con la exploración y colonización espacial; una red artificial que conecta y controla a todo el mundo; robots inteligentes que buscan someter al hombre; los viajes en el tiempo; un futuro apocalíptico o, por el contrario, un futuro utópico; el mundo y los hombres controlados por los ordenadores, etc.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-info"><a href="https://www.samsung.com/pe/smartphones/?product1=sm-a325mzkmltp&product2=sm-g991bzvlltp&product3=">Ver Mas</a></button>
+                </div>
+                <small class="text-muted">Ciencia Ficción</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="https://img.freepik.com/vector-gratis/castillo-cuento-hadas-castillo-piratas_52683-34798.jpg?w=360" width="100%" height="225" class="img-fluid" alt="Responsive image">
+
+            <div class="card-body">
+              <p class="card-text">Estas criaturas mágicas e intangibles, que interceden en los asuntos de los humanos para bien o para mal, existen en el imaginario popular desde tiempos inmemoriales, sin que se conozca realmente su origen. </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                </div>
+                <small class="text-muted">Cuentos de Hadas</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="https://librosobrelibro.com/wp-content/uploads/2022/02/Copia-de-Cream-and-Blue-72x36-Landscape-Voter-Eduction-Banner-scaled.jpg" width="100%" height="225" class="img-fluid" alt="Responsive image">
+
+            <div class="card-body">
+              <p class="card-text">Consiste en una narración usualmente extensa, de carácter más o menos ficcional, que se cuenta usualmente por capítulos o segmentos, en los que interviene siempre la voz de un narrador</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                </div>
+                <small class="text-muted">Novela</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="https://es.babelio.com/users/liste_Escritores-de-terror-hispanoamericanos_4177.jpeg" width="100%" height="225" class="img-fluid" alt="Responsive image">
+
+            <div class="card-body">
+              <p class="card-text">Muchas veces llamada literatura de horror o gótica, se caracteriza por ser un género popular que busca provocar en los lectores efectos relacionados con el miedo o, como su nombre lo indica, el terror, en grados diversos.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-info"><a href="https://consumer.huawei.com/pe/phones/">Ver Mas</a></button>
+                </div>
+                <small class="text-muted">Terror</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="https://espaciolibros.com/wp-content/uploads/2020/06/mejores-libros-romanticos.png" width="100%" height="225" class="img-fluid" alt="Responsive image">
+
+            <div class="card-body">
+              <p class="card-text">La búsqueda de la felicidad, la insatisfacción vital o el inconformismo no les serán sentimientos del todo ajenos a tus estudiantes y, además, descubrirán la crítica que hace el autor al exceso de sentimentalismo del movimiento romántico, en una obra referente del realismo</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                </div>
+                <small class="text-muted">Romántica</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="https://gatopardo.com/wp-content/uploads/2022/04/libros_sobre_libros_sobre_el_humor_eduardo_huchin_cultura_gatopardo_portada.png" width="100%" height="225" class="img-fluid" alt="Responsive image">
+
+            <div class="card-body">
+              <p class="card-text">La actitud humorística aparece en la literatura como un producto posterior a las creaciones clásicas y los géneros literarios principales, como una reacción creativa y distanciadora frente a aquello que aparece como oficial y ortodoxo.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                </div>
+                <small class="text-muted">Humor</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+    <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
+  </div>
+</footer>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
